@@ -1,0 +1,598 @@
+@media (max-width: 1010px){
+    .showDetails {
+        display: none !important;
+    }
+
+    .regTableTradingAccountSymbolContainer {
+        width: 70px !important;
+        height: 40px !important;
+    }
+
+    .regTableTradingAccountInfo {
+        top: -84% !important;
+        left: 60px !important;
+    }
+    
+    .reg_container_all{
+        grid-template-columns: 100vw !important;
+        grid-template-rows: 100vh !important;
+    }
+    
+    .reg_container_logo {
+        display: none !important;
+    }
+    
+    .panel_logo_logo {
+        left: 60px !important;
+        position: relative !important;
+    }
+
+    .panel_logo_text {
+        padding-left: 70px !important;
+    }
+
+    .reg_container_content {
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+    }
+
+    .panel_logo_logo_input {
+        display: block !important;
+    }
+}
+
+.float_right {
+    float: right !important;
+}
+
+.panel_reg_fill_bottom {
+	height: 100px;
+}
+
+.panel_fill_vertical {
+	flex-grow: 1;
+}
+
+.regTradingAccountTitle {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.panel_reg_fill_top {
+	height: 18%;
+}
+
+.regTableTradingAccount {
+    width: 100%;
+    font-size: small;
+    text-align: left;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.regTableTradingAccountTrBorder {
+    border-bottom: 1px solid #3E4145;
+}
+
+.regTableTradingAccountTrSel {
+    border-color: #69D88D;
+}
+
+.regTableTradingAccount tr > td:first-of-type {
+    border: 1px solid #1B1C1D;
+    border-right: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.regTableTradingAccount tr > td:nth-of-type(2) {
+    border: 1px solid #1B1C1D;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.regTableTradingAccount tr > td:nth-of-type(3) {
+    border: 1px solid #1B1C1D;
+    border-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.showDetails {
+    cursor: pointer;
+}
+
+.regTableTradingAccountHeader > td,
+.regTableTradingAccountHeader > td {
+    border: none !important;
+}
+
+.regTableTradingAccount tr:hover > td:first-of-type,
+.regTableTradingAccount tr.active > td:first-of-type {
+    border: 1px solid #69D88D;
+    border-right: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.regTableTradingAccount tr:hover > td:nth-of-type(2),
+.regTableTradingAccount tr.active > td:nth-of-type(2) {
+    border: 1px solid #69D88D;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.regTableTradingAccount tr:hover > td:nth-of-type(3),
+.regTableTradingAccount tr.active > td:nth-of-type(3) {
+    border: 1px solid #69D88D;
+    border-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.regTableTradingAccountTrSelAbove {
+    border-bottom: 0px solid #DEA36D !important;
+}
+
+.regTableTradingAccount tr > td:nth-of-type(1) {
+    width: 30%;
+    padding-left: 20px;
+}
+
+.regTableTradingAccount tr > td:nth-of-type(2) {
+    width: 45%;
+}
+
+.regTableTradingAccount tr > td:last-of-type {
+    padding-top: 0px;
+}
+
+.regTableTradingAccountTd {
+    padding: 5px;
+}
+
+.regTableTradingAccountTdCol0 {
+    width: 30%;
+}
+
+.regTableTradingAccountTdCol2 {
+    width: 35%;
+}
+
+.regTableTradingAccountTextCapital {
+    color: #ffffff;
+}
+
+.regTableTradingAccountSymbolContainer {
+    width: 90px;
+    height: 40px;
+}
+
+.regTableTradingAccountSymbol {
+    background-color: #26282B;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 12px;
+    border: 0px;
+    text-align: center;
+}
+
+.regTableTradingAccountInfo {
+    position: relative;
+    height: 26px;
+    width: 26px;
+    border: 0px solid white;
+    border-radius: 13px;
+    top: -80%;
+    left: 78px;
+    background-color: #DEA36D;
+    color: #171717;
+    padding-left: 11.5px;
+    padding-top: 5px;
+}
+
+.regTableTradingAccountTextFee {
+    color: #69D88D
+}
+
+.regTablePaymentTextPosition {
+    color: #3E4145;
+}
+
+.regTablePaymentSumText {
+    color: #ffffff;
+}
+
+.regTablePaymentSumNumber {
+    color: #69D88D;
+}
+
+.regTablePaymentTrBorder {
+    border-bottom: 1px solid #3E4145;
+    height: 10px;
+    padding-top: 10px;
+}
+
+.regTablePaymentCol0 {
+    padding-top: 10px;
+}
+
+.regTablePaymentCol1 {
+    padding-top: 10px;
+    width: 120px;
+}
+
+.textSub {
+    color: #3E4145;
+}
+
+.trade_account_info {
+    height: 170px;
+    margin-top: 22px;
+    background: #212224;
+    width: 842px;
+    padding-left: 220px;
+    font-size: 18px;
+}
+
+.trade_account_info.basic {
+    background-image: url(/Images/account-basic.png);
+    background-repeat: no-repeat;
+}
+.trade_account_info.plus {
+    background-image: url(/Images/account-plus.png);
+    background-repeat: no-repeat;
+}
+.trade_account_info.pro {
+    background-image: url(/Images/account-pro.png);
+    background-repeat: no-repeat;
+}
+.trade_account_info.pro_plus {
+    background-image: url(/Images/account-proplus.png);
+    background-repeat: no-repeat;
+}
+
+.trade_account_info.basic.active {
+    background-image: url(/Images/account-basic-active.png);
+    background-repeat: no-repeat;
+}
+.trade_account_info.plus.active {
+    background-image: url(/Images/account-plus-active.png);
+    background-repeat: no-repeat;
+}
+.trade_account_info.pro.active {
+    background-image: url(/Images/account-pro-active.png);
+    background-repeat: no-repeat;
+}
+.trade_account_info.pro_plus.active {
+    background-image: url(/Images/account-proplus-active.png);
+    background-repeat: no-repeat;
+}
+
+.trade_account_info .cell {
+    padding: 27px;
+    width: 152px;
+    display: inline-block;
+    height: 170px;
+    vertical-align: top;
+}
+
+.trade_account_info .cell.highlight {
+    background: #292B2E;
+}
+.trade_account_info .cell .label {
+    color: #686B6F;
+}
+
+.trade_account_info .cell .info {
+    color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+.reg_slidein_info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    transition: 1s;
+}
+
+.reg_slidein_info.away {
+    transition: 1s;
+    left: -100%;
+}
+
+.reg_slidein_info .hide_button {
+    right: 20px;
+    top: 50%;
+    position: absolute;
+    padding: 12px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.reg_slidein_info .description {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 178px;
+    margin-top: 40px;
+}
+
+.resizeable {
+    transform-origin: left top;
+    width: fit-content;
+}
+
+@media (max-width: 1800px){
+    .resizeable {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 1690px){
+    .resizeable {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 1480px){
+    .resizeable {
+        transform: scale(0.7);
+    }
+}
+
+@media (max-width: 1290px){
+    .resizeable {
+        transform: scale(0.6);
+    }
+    
+    .reg_container_content {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+@media (max-width: 1120px){
+    .resizeable {
+        transform: scale(0.5);
+    }
+}
+
+.textLarge {
+    font-size: 22px;
+}
+
+
+.reg_container_all {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 100vh;
+}
+
+.reg_container_logo {
+    grid-column: 1;
+    grid-row: 1;
+
+    /* background-image: url('/Images/background_reg0.png'); */
+    /* background-attachment: fixed; */
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+
+.panel_logo_logo {
+    width: 250px;
+    height: 50px;
+    top: 20px;
+    left: 100px;
+    position: relative;
+}
+
+.reg_container_content {
+    grid-column: 2;
+    grid-row: 1;
+
+    background-color: #1B1C1D;
+
+    display: flex;
+    flex-flow: column;
+
+    height: 100%;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    position: relative;
+}
+
+.reg_container_for_blur {
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+}
+
+
+.panel_logo_logo_input {
+    width: 250px;
+    height: 50px;
+    top: 20px;
+    left: 25px;
+    position: absolute;
+    display: none;
+}
+
+.messagebox {
+    color: white;
+    position: fixed;
+    top: 99%;
+    left: 99%;
+    transform: translate(-100%, -100%);
+    z-index: 10;
+    background: #3c3c3c;
+    padding: 30px;
+    border-radius: 20px;
+    opacity: 0.96;
+    max-width: 400px;
+}
+
+.messagetext {
+    color: white;
+    font-size: 30px;
+}
+
+.textLabelInput {
+    color: #ffffff;
+}
+
+.textNormal {
+    color: white;
+}
+
+.textLarger {
+    font-size: 18px;
+    color: white;
+}
+
+.red_bitcoin_failed {
+    color: #cc4444 !important;
+}
+
+.loadingOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.20);
+    z-index: 10000;
+}
+
+.loadingOverlayRelative {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+
+
+.loadingGif {
+    width: 70px;
+    height: 70px;
+    min-width: 70px !important;
+    max-height: 70px !important;
+    max-width: 70px !important;
+    min-height: 70px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 10000;
+}
+
+.bo_proof_border_bottom {
+    border-bottom: 1px solid #292B2E;
+}
+
+.bo_proof_border_bottom_light {
+    border-bottom: 1px solid #4D4F52;
+}
+
+.bo_proof_table_trades_big_text {
+    text-align: left;
+    font: 24px Arboria;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.bo_proof_table_trades_big_text_green {
+    text-align: left;
+    font: 40px Arboria;
+    letter-spacing: 0px;
+    color: #69D88D;
+}
+
+tr.strikeout td {
+    position: relative;
+}
+
+tr.strikeout td:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+}
+
+tr.strikeout .regTableTradingAccountInfo,
+tr.strikeout td.additionalSymbol {
+    display: none;
+}
+
+.regTableTradingAccount tr.strikeout:hover > td:first-of-type {
+    border: 1px solid #1B1C1D;
+    border-right: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.regTableTradingAccount tr.strikeout:hover > td:nth-of-type(2) {
+    border: 1px solid #1B1C1D;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.regTableTradingAccount tr.strikeout:hover > td:nth-of-type(3) {
+    border: 1px solid #1B1C1D;
+    border-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* Modal Content */
+.modal_terms_content {
+    background-color: #292B2E;
+    color: #ffffff;
+    margin: auto;
+    padding: 40px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px #0000004D;
+    position: relative;
+}
+
+.modal_terms_title {
+    color: #DEA36D;
+    font-size: 16px;
+}
+
+.modal_terms_header {
+    color: #4D4F52;
+    font-size: 14px;
+}
+
+
+.modal_terms_text {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.subradio {
+    padding-left: 45px;
+}

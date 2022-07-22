@@ -1,0 +1,24 @@
+<?php
+
+    include("configuration.php");
+    include("db.php");
+    include("translate.php");
+    include("utils.php");
+    require_once(__DIR__  . "/lib/commissions_test.php");
+
+
+$comm = new Commissions;
+$i = 1;
+while($i <= 4) {
+
+	$user = $comm->getUsersInPool($i);
+	echo "Reverse User für Rank: " . $i . PHP_EOL;
+	foreach($user as $u) {
+		echo $u['given_name'] . "\t" . $u['sur_name'] . "\t" . $u['email'] . PHP_EOL;
+	}
+
+	echo PHP_EOL . PHP_EOL;
+	$i++;
+}
+
+?>
